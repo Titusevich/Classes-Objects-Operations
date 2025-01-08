@@ -10,4 +10,8 @@ public class Person {
         this.age = age;
         this.profession = profession;
     }
+
+    public static String changeProfession(String profession){
+        return profession;
+    }
 }
