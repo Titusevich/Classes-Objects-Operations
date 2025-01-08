@@ -25,5 +25,10 @@ public class Main {
         System.out.println();
         System.out.print(count + ". ");
         PersonInfo.getInfo(person4.name,person4.age,person4.profession);
+
+        System.out.println("   (After profession change)");
+        String newProfession = Person.changeProfession("Estate agent");
+        System.out.print("   ");
+        PersonInfo.getInfo(person4.name,person4.age,newProfession);
     }
 }
